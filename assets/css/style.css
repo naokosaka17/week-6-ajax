@@ -1,0 +1,78 @@
+body{
+	background-image: url("../images/rainbow_lips.jpg")
+}
+
+.wrapper{
+	width: 90%;
+	height: 650px;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	background-color: rgba(230, 230, 230, 0.0);  
+}
+
+h1{
+	text-align: center;
+	font-family: 'Shrikhand', cursive;
+	font-size: 4em;
+	animation-name: rainbow;
+	animation-duration: 45s;
+	width: 60%;
+	margin-left: 20%;
+	background-color: 
+}
+
+@keyframes rainbow {
+   	0% {background-color: #D80DFF;}
+    10%{background-color: #E80C9A;}
+    20%{background-color: #FF0000;}
+    30%{background-color: #E8350C;}
+    40%{background-color: #FF6000;}
+    50%{background-color: #FFEA01;}
+    60%{background-color: #67E80B;}
+    70%{background-color: #01FF5E;}
+    80%{background-color: #08D9E8;}
+    90%{background-color: #0C4FFF;}
+   100%{background-color: #F400FF;}
+}
+
+.btn{
+	font-family: 'Shrikhand', cursive;
+	margin-top: 3.5em;
+	line-height: 2.5em;
+	border: 2px solid black;
+
+}
+.search{
+	animation-name: rainbow;
+	animation-duration: 30s;
+}
+.input{
+	margin-left: 30em;
+}
+
+#buttons{
+	font-family: 'Shrikhand', cursive;
+	font-size: 20px;
+	margin-left: 5em;
+
+}
+
+img{
+	width: 400px;
+	height: 250px;
+}
+p{
+	font-family: 'Shrikhand', cursive;
+	font-size: 20px;
+	
+}
+.item{
+	float:left;
+	margin-left: 10%;
+}
+
+
+
+
+
