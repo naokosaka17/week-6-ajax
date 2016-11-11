@@ -46,7 +46,7 @@ $(document).ready(function(){
 		var p = $(this).text();
 
 
-		queryURL = "http://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC";
+		queryURL = "https://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC";
 
 		$.ajax({url: queryURL, method: 'GET'})
 			.done(function(response){
